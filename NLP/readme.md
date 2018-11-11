@@ -43,3 +43,19 @@
   - Performing topic identification and document comparison
   - Gensim Example: http://tlfvincent.github.io/2015/10/23/presidential-speech-topics/
   
+# TF-IDF
+  - Term frequency - inverse document frequency
+  - Determine most important words in document
+  - Each document may have shared words beyond stop words
+  - These words are down-weighted in importance
+  - Examples from astronomy: Sky
+  - Ensures most common words don't show up as keywords
+  - Keeps document specific frequent words high
+  - w(i,j) = tf(i,j)*log(N/dfi)
+      - w(i,j) = tf-idf weight for token i in document j
+      - tf(i,j) = number of occurences of token i in document j
+      - dfi = number of documents that contain token i
+      - N = total number of documents
+    - You want to calculate the tf-idf weight for the word "computer", which appears five times in a document containing 100 words. Given a corpus containing 200 documents, with 20 documents mentioning the word "computer", tf-idf can be calculated by multiplying term frequency with inverse document frequency.
+    - Term frequency = percentage share of the word compared to all tokens in the document Inverse document frequency = logarithm of the total number of documents in a corpora divided by the number of documents containing the term
+    - Tf-Idf : (5 / 100) * log(200 / 20)
