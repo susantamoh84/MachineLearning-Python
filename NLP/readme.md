@@ -88,3 +88,9 @@
   - Informal language corpora
     - easily find entities in tweets and chat messages
   - Quickly growing
+
+# PloyGlot
+  - NLP library which uses word vectors
+  - Why polyglot ?
+    - Vectors for many different languages
+    - More than 130!
