@@ -59,3 +59,21 @@
     - You want to calculate the tf-idf weight for the word "computer", which appears five times in a document containing 100 words. Given a corpus containing 200 documents, with 20 documents mentioning the word "computer", tf-idf can be calculated by multiplying term frequency with inverse document frequency.
     - Term frequency = percentage share of the word compared to all tokens in the document Inverse document frequency = logarithm of the total number of documents in a corpora divided by the number of documents containing the term
     - Tf-Idf : (5 / 100) * log(200 / 20)
+
+# Named Entity Recognition
+
+  - NLP task to identify important named-entities in the text
+    - People, places, organization
+    - Dates, states, works of art
+    - ... and other categories
+  - Can be used alongside topic identification
+    - ... or on its own
+  - who?, what?, when?, where ?
+  
+# NLTK and Stanford CoreNLP library
+
+  - The Stanford CoreNLP library
+    - Integrates via python via nltk
+    - Java Based
+    - Support for NER as well as coreferences and dependency trees
+    
