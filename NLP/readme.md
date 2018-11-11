@@ -35,3 +35,11 @@
     - Lemmatization/Stemming:
       - Shorten words to their root stems
     - Remove stop words, punctuations or unwanted tokens 
+
+# Gensim
+  - Popular open-source NLP library
+  - Uses top academic models to perform complex tasks
+  - Building document or word vectors
+  - Performing topic identification and document comparison
+  - Gensim Example: http://tlfvincent.github.io/2015/10/23/presidential-speech-topics/
+  
