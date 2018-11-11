@@ -37,3 +37,18 @@ plt.pie(values, labels=labels, autopct='%1.1f%%', startangle=140)
 # Display the chart
 plt.show()
 
+# Import spacy
+import spacy
+
+# Instantiate the English model: nlp
+nlp = spacy.load('en',tagger=False, parser=False, matcher=False)
+
+# Create a new document: doc
+doc = nlp(article)
+
+# Print all of the found entities and their labels
+for ent in doc.ents:
+    print(ent.label_, ent.text)
+
+#Look at spacy examples at: https://spacy.io/usage/spacy-101
+
