@@ -25,3 +25,13 @@
   - regexp_tokenize: tokenzie a string or document based on regular expression pattern
   - TweetTokenizer: special class just for tweet tokenization, allowing you to separate hashtags, mentions and lots of exclamation points !!!
   
+# Bag Of Words
+
+  - preprocessing
+    - Helps make for better input data: For Machine Learning & other statistical models
+    - Examples:
+      - Tokenization for Bag of Words
+      - Lower casing of the words
+    - Lemmatization/Stemming:
+      - Shorten words to their root stems
+    - Remove stop words, punctuations or unwanted tokens 
