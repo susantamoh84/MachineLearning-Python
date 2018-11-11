@@ -8,3 +8,8 @@
     - Help you order coffee
   - Handling Statefulness
 
+# Why Personality?
+
+  - Difference between command line app and chatbot
+  - Makes chatbots and voice assistants more accessible and fun to use
+  - Your users will expect it
