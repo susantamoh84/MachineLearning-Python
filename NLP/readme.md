@@ -83,4 +83,8 @@
   - Open source with extra library and tools
     - Displacy - interactive charts and diagrams
     - Example: https://demos.explosion.ai/displacy-ent/
-    
+  - Easy pipeline creation
+  - Different entity types compared to nltk
+  - Informal language corpora
+    - easily find entities in tweets and chat messages
+  - Quickly growing
