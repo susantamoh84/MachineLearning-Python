@@ -77,3 +77,10 @@
     - Java Based
     - Support for NER as well as coreferences and dependency trees
     
+# Spacy
+  - NLP library similar to gensim with different implementations
+  - Focusing NLP pipelines to generate models and corpora
+  - Open source with extra library and tools
+    - Displacy - interactive charts and diagrams
+    - Example: https://demos.explosion.ai/displacy-ent/
+    
