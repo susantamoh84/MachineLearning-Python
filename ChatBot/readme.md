@@ -33,3 +33,12 @@
   - Drawbacks:
     - Debugging regular expressions can be difficult
 
+# Word Vectors
+  - Context: 
+    - Lets meet at the _ tomorrow. Candidates: office, gym, park, beach, party
+    - I love going to the _ to play with the dogs. Candidates: beach, park
+  - Word Vectors try to represent meaning of words
+  - Words which appear in similar context appear to have similar vectors
+  - Words vectors training is computationally intensive and requires a lot of data.
+  - Available word vectors: Glove Algorithm, similar to word2vec
+  - Spacy
