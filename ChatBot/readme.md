@@ -97,3 +97,22 @@
     - Specific to the application context
   - Negated Entities
     - assume that "not" or "n't" just before an entity means user wants to exclude this
+
+# Seq2eq
+  - Machine Translation
+  - Completely data driven, no hand-crafting
+  - requires large amount of data
+  - no gurantee that output is co-herent
+  - Difficult to integrate DB/API calls & other logic
+  
+# Grounded Dialogue System
+  - Systems which we have built in this course - hand-crafted
+  - Seq2Seq: Data Driven
+  - ML based dialogue systems:
+    - NLU
+    - Dialogue state manager
+    - API logic
+    - Natural Language response generator
+  - Human pretent to be a bot: "Wizard of Oz" technique
+  - Reinforcement learning
+    - Recieves a reward for successful conversation
