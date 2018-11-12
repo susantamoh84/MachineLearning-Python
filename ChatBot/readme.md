@@ -65,3 +65,18 @@
   - Nearest beighbour is too simple - need a better solution
   - SVM/SVC - Support Vector Machine/Classifier
   
+# Entity Extraction
+  - Beyond Keywords: Context ( Keywords don't work for entities you haven;t seen before )
+  - Use contextual clues :
+    - Spelling
+    - Capitalization
+    - words occuring before and after
+  - Pattern recognition
+  
+# Dependency Parsing
+  - Use a parse tree to assign roles
+  - parse tree hirearchial relationship - parent child
+  - Example: "A flight from Shanghai to Singapore"
+    - The word "to" is parent of word "Singapore"
+    - The word "from" is parent of word "Shanghai"
+    
