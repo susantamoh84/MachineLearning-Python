@@ -116,3 +116,8 @@
   - Human pretent to be a bot: "Wizard of Oz" technique
   - Reinforcement learning
     - Recieves a reward for successful conversation
+
+# Langauge Generation ( Not worth compared to hand-crafted messages )
+  - Not recommended if building a bot
+  - Pre-trained neural network which can generate text
+  - Example Trained: Scripts of every episodes of The Sympsons
