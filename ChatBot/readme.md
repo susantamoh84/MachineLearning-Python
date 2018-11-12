@@ -57,3 +57,11 @@
   - Evaluate performance on test data
   - The fraction of labels we predict correctly
   
+# Nearest Neighbour Classification
+  - Simplest solution - look for the labeled example (training data) that is most similar in (test data)
+  - Use its intent as the best guess
+  
+# Support Vector Machines
+  - Nearest beighbour is too simple - need a better solution
+  - SVM/SVC - Support Vector Machine/Classifier
+  
