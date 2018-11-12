@@ -87,3 +87,13 @@
     - Searching for a restaurant
   - Require information about the outside world
   - Need to interact with databases or APIs
+
+# Incremental slot filling and negation
+  - Add responses into the memory
+  - When to wipe memory of bot
+  - Negation:
+    - Where should i go for dinner ?   "what about Sally's Sushi Place ?"
+    - no I don't like sushi            "ok, what about Joe's Steakhouse ?"
+    - Specific to the application context
+  - Negated Entities
+    - assume that "not" or "n't" just before an entity means user wants to exclude this
