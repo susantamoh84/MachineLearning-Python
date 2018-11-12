@@ -51,3 +51,9 @@
     - 0: if vectors are perpendicular
     - -1: If vectors point in the opposite direction
     
+# Intent Supervised Learning
+  - A classifier predicts the intent label given a sentence
+  - 'Fit' classifier by tuning it on training data
+  - Evaluate performance on test data
+  - The fraction of labels we predict correctly
+  
