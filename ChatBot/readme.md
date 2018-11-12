@@ -121,3 +121,5 @@
   - Not recommended if building a bot
   - Pre-trained neural network which can generate text
   - Example Trained: Scripts of every episodes of The Sympsons
+
+# Get SourceCode: inspect.getsource(f)
