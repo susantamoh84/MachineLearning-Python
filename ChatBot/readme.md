@@ -42,3 +42,12 @@
   - Words vectors training is computationally intensive and requires a lot of data.
   - Available word vectors: Glove Algorithm, similar to word2vec
   - Spacy
+
+# Word Vectors Similarity
+  - Direction of vectors matters
+  - "Distance" between the words = angle between the vectors
+  - Cosine Similarity:
+    - 1: If vectors point in the same direction
+    - 0: if vectors are perpendicular
+    - -1: If vectors point in the opposite direction
+    
