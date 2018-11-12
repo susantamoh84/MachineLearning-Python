@@ -80,3 +80,10 @@
     - The word "to" is parent of word "Singapore"
     - The word "from" is parent of word "Shanghai"
     
+# Virtual Assistants
+  - Common chatbot use cases:
+    - Scheduling a meeting
+    - Booking a flight
+    - Searching for a restaurant
+  - Require information about the outside world
+  - Need to interact with databases or APIs
